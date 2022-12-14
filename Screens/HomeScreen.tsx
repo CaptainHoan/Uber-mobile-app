@@ -31,10 +31,10 @@ const HomeScreen = () => {
 
   return (
     <SafeAreaView className="mx-5 flex-1">
-        <Text className='text-black text-5xl font-bold mt-5'>Synlink</Text>
+        <Text className='text-black text-5xl font-bold mt-5'>Uber</Text>
         <View style={styles.searchBox}>
             <TextInput
-                placeholder = 'Where from'
+                placeholder = 'Where from?'
                 placeholderTextColor={'gray'}
                 value={originInput}
                 onChangeText={value => setOriginInput(value)}
